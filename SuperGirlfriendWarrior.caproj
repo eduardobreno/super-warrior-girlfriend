@@ -1,0 +1,1739 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>SuperGirlfriendWarrior</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2fncyy9e1slxu</unique-id>
+    <saved-with-version>24100</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>720</width>
+        <height>600</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>start_screen</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Off</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Fase 1">
+            <object-type name="Tilemap_fase1" sid="332880019653661">
+                <plugin id="Tilemap" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="225976794474029">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase01\tiles_spritesheet2-02.png" />
+                <tiles>
+                    <tile id="8">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.996429" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="32">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="104">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.425" />
+                            <point x="0.8875" y="0.675" />
+                            <point x="0.535714" y="0.914286" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="124">
+                        <collision-poly>
+                            <point x="0" y="0.646429" />
+                            <point x="1" y="0.646429" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="128">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.492857" y="0.925" />
+                            <point x="0.171429" y="0.728571" />
+                            <point x="0" y="0.467857" />
+                        </collision-poly>
+                    </tile>
+                </tiles>
+            </object-type>
+            <object-type name="TileBackground_fase1" sid="168811287550962">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase01\fundo_fase01-01.png" />
+            </object-type>
+            <object-type name="SpriteFallBlock1_fase1" sid="578566828058394">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="761474099531317" speed="5">
+                        <frame duration="1" hotspotX="0.0138889" hotspotY="0" original-source="C:\Repositorio\super-warrior-girlfriend\Textures\Tilemap_fase1.png">
+                            <collision-poly>
+                                <point x="0.0138889" y="0" />
+                                <point x="0.986111" y="0" />
+                                <point x="0.986111" y="0.988096" />
+                                <point x="0.0138889" y="0.988095" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tilemap_fase1_bg" sid="270563897644318">
+                <plugin id="Tilemap" />
+                <texture original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase01\tiles_spritesheet2-02.png" />
+                <tiles />
+            </object-type>
+            <object-type name="Bonus" sid="332917170983083">
+                <plugin id="Spritefont2" />
+                <texture />
+            </object-type>
+        </object-folder>
+        <object-folder name="StartScreen">
+            <object-type name="background" sid="308365574940313">
+                <plugin id="TiledBg" />
+                <texture />
+            </object-type>
+            <object-type name="Button" sid="551231519764182">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="SpriteFont" sid="243615449285512">
+                <plugin id="Spritefont2" />
+                <texture />
+            </object-type>
+            <object-type name="TiledBackground" sid="488989601090744">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\GAME_SWG-02.png" />
+            </object-type>
+            <object-type name="Button2" sid="211197316126959">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="Button3" sid="350150024950988">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="spritebt1" sid="925081919740144">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="150634054712601" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spritebt2" sid="267223452214707">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="569601934341083" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spritebt3" sid="618490115631894">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416595959656690" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Fase 3">
+            <object-type name="TiledBackground_fase3" sid="567087600668905">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Aecio\Documents\Projeto Games\fase03base\fundo_castelo-01.png" />
+            </object-type>
+            <object-type name="Tilemap_fase3" sid="968830096371205">
+                <plugin id="Tilemap" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="340697358348662">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase03\medieval_tilesheet_new-01.png" />
+                <tiles>
+                    <tile id="81">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.996429" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                </tiles>
+            </object-type>
+            <object-type name="Tilemap_fase3_bg" sid="566140649402970">
+                <plugin id="Tilemap" />
+                <texture original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase03\medieval_tilesheet_new-01.png" />
+                <tiles />
+            </object-type>
+            <object-type name="SpriteKeyHole" sid="480686608385631">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444671395198060" speed="5">
+                        <frame duration="1" hotspotX="0.507042" hotspotY="0.507042" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Enemies">
+            <object-type name="enemy_bat" sid="228954554743822">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="782144549300855" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-11.png">
+                            <image-point name="headEnemy" x="0.472222" y="0.236111" />
+                            <collision-poly>
+                                <point x="0.0555556" y="0.194444" />
+                                <point x="0.513889" y="0.444445" />
+                                <point x="0.979167" y="0.201389" />
+                                <point x="0.611111" y="0.777778" />
+                                <point x="0.333333" y="0.666667" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-12.png">
+                            <image-point name="headEnemy" x="0.472222" y="0.236111" />
+                            <collision-poly>
+                                <point x="0.0555556" y="0.194444" />
+                                <point x="0.513889" y="0.444445" />
+                                <point x="0.979167" y="0.201389" />
+                                <point x="0.611111" y="0.777778" />
+                                <point x="0.333333" y="0.666667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="hit" pingpong="0" repeatcount="1" repeatto="0" sid="817689738822102" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-13.png">
+                            <collision-poly>
+                                <point x="0.0555556" y="0.194444" />
+                                <point x="0.513889" y="0.444445" />
+                                <point x="0.979167" y="0.201389" />
+                                <point x="0.611111" y="0.777778" />
+                                <point x="0.333333" y="0.666667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="522088945040864" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-14.png">
+                            <collision-poly>
+                                <point x="0.0555556" y="0.194444" />
+                                <point x="0.513889" y="0.444445" />
+                                <point x="0.979167" y="0.201389" />
+                                <point x="0.611111" y="0.777778" />
+                                <point x="0.333333" y="0.666667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="sleep" pingpong="0" repeatcount="1" repeatto="0" sid="147918512259115" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-10.png">
+                            <image-point name="headEnemy" x="0.472222" y="0.236111" />
+                            <collision-poly>
+                                <point x="0.0555556" y="0.194444" />
+                                <point x="0.513889" y="0.444445" />
+                                <point x="0.979167" y="0.201389" />
+                                <point x="0.611111" y="0.777778" />
+                                <point x="0.333333" y="0.666667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_fly2" sid="757675519949625">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="285849725173316" speed="5">
+                        <frame duration="1" hotspotX="0.527778" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-02.png">
+                            <image-point name="headEnemy" x="0.472222" y="0.208333" />
+                            <collision-poly>
+                                <point x="0.125" y="0.263889" />
+                                <point x="0.819444" y="0.222222" />
+                                <point x="0.847222" y="0.763889" />
+                                <point x="0.222222" y="0.819444" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-03.png">
+                            <image-point name="headEnemy" x="0.472222" y="0.208333" />
+                            <collision-poly>
+                                <point x="0.125" y="0.263889" />
+                                <point x="0.819444" y="0.222222" />
+                                <point x="0.847222" y="0.763889" />
+                                <point x="0.222222" y="0.819444" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="hit" pingpong="0" repeatcount="1" repeatto="0" sid="359263308713127" speed="5">
+                        <frame duration="1" hotspotX="0.507042" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-04.png">
+                            <collision-poly>
+                                <point x="0.125" y="0.263889" />
+                                <point x="0.819444" y="0.222222" />
+                                <point x="0.847222" y="0.763889" />
+                                <point x="0.222222" y="0.819444" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="774608689133010" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-05.png">
+                            <collision-poly>
+                                <point x="0.125" y="0.263889" />
+                                <point x="0.819444" y="0.222222" />
+                                <point x="0.847222" y="0.763889" />
+                                <point x="0.222222" y="0.819444" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_ghost" sid="802753014617487">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="962629154608974" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-06.png">
+                            <collision-poly>
+                                <point x="0.208333" y="0.0833333" />
+                                <point x="0.722222" y="0.0555556" />
+                                <point x="0.75" y="0.930556" />
+                                <point x="0.236111" y="0.916667" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-07.png">
+                            <collision-poly>
+                                <point x="0.208333" y="0.0833333" />
+                                <point x="0.722222" y="0.0555556" />
+                                <point x="0.75" y="0.930556" />
+                                <point x="0.236111" y="0.916667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="hit" pingpong="0" repeatcount="1" repeatto="0" sid="767948609121183" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-08.png">
+                            <collision-poly>
+                                <point x="0.208333" y="0.0833333" />
+                                <point x="0.722222" y="0.0555556" />
+                                <point x="0.75" y="0.930556" />
+                                <point x="0.236111" y="0.916667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="784632390953574" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-09.png">
+                            <collision-poly>
+                                <point x="0.208333" y="0.0833333" />
+                                <point x="0.722222" y="0.0555556" />
+                                <point x="0.75" y="0.930556" />
+                                <point x="0.236111" y="0.916667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_spider" sid="314493483469594">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="278911121697703" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-16.png">
+                            <collision-poly>
+                                <point x="0" y="4.96705e-007" />
+                                <point x="0.921875" y="0" />
+                                <point x="1" y="0.958332" />
+                                <point x="5.21541e-008" y="0.979166" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.507246" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-17.png">
+                            <collision-poly>
+                                <point x="0.0289855" y="4.96705e-007" />
+                                <point x="0.898551" y="0" />
+                                <point x="1" y="0.958332" />
+                                <point x="0.0434783" y="0.979166" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="hit" pingpong="0" repeatcount="1" repeatto="0" sid="131027039230131" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-18.png">
+                            <collision-poly>
+                                <point x="0.0416667" y="0.166667" />
+                                <point x="0.875" y="0.152778" />
+                                <point x="0.972222" y="0.805555" />
+                                <point x="0.0555556" y="0.819444" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="969579171085541" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Dropbox\UEA\LJE02 - Introdução a Programação de Jogos Eletrônicos\trabalho3\super-warrior-girlfriend\mapas_tiled\inimigos fase3\inimigosfase03-19.png">
+                            <collision-poly>
+                                <point x="0.0416667" y="0.166667" />
+                                <point x="0.875" y="0.152778" />
+                                <point x="0.972222" y="0.805555" />
+                                <point x="0.0555556" y="0.819444" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_fly" sid="864973413583547">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="621276423480707" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\flyFly1.png">
+                            <image-point name="enemyHead" x="0.472222" y="0.0277778" />
+                            <collision-poly>
+                                <point x="0.0555556" y="0.111111" />
+                                <point x="0.5" y="0.138889" />
+                                <point x="0.944444" y="0.111111" />
+                                <point x="0.847222" y="0.5" />
+                                <point x="0.777778" y="0.555556" />
+                                <point x="0.5" y="1" />
+                                <point x="0.208333" y="0.583333" />
+                                <point x="0.138889" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.506494" hotspotY="0.515152" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\flyFly2.png">
+                            <image-point name="enemyHead" x="0.467532" y="0.030303" />
+                            <collision-poly>
+                                <point x="0.0649351" y="0.151515" />
+                                <point x="0.493506" y="0.030303" />
+                                <point x="0.922078" y="0.181818" />
+                                <point x="0.974026" y="0.484848" />
+                                <point x="0.831169" y="0.606061" />
+                                <point x="0.493506" y="0.969697" />
+                                <point x="0.194805" y="0.545455" />
+                                <point x="0.038961" y="0.484848" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="hit" pingpong="0" repeatcount="1" repeatto="0" sid="141440836074714" speed="5">
+                        <frame duration="1" hotspotX="0.506667" hotspotY="0.516129" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\flyFly2.png">
+                            <collision-poly>
+                                <point x="0.0533333" y="0.129032" />
+                                <point x="0.493333" y="0" />
+                                <point x="0.933333" y="0.16129" />
+                                <point x="0.986667" y="0.483871" />
+                                <point x="0.84" y="0.612903" />
+                                <point x="0.493333" y="1" />
+                                <point x="0.186667" y="0.548387" />
+                                <point x="0.0266667" y="0.483871" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="290657357563606" speed="5">
+                        <frame duration="1" hotspotX="0.508475" hotspotY="0.515152" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\flyDead.png">
+                            <collision-poly>
+                                <point x="0.186441" y="0.333333" />
+                                <point x="0.491525" y="0" />
+                                <point x="0.898305" y="0.181818" />
+                                <point x="0.79661" y="0.484848" />
+                                <point x="0.949153" y="0.909091" />
+                                <point x="0.491525" y="0.939394" />
+                                <point x="0.0677966" y="0.878788" />
+                                <point x="0.186441" y="0.484848" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_fish" sid="752985697023994">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="211044124625828" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\fishSwim1.png">
+                            <image-point name="enemyHead" x="0.409091" y="-0.0238095" />
+                            <collision-poly>
+                                <point x="0.151515" y="0.238095" />
+                                <point x="0.5" y="0.119048" />
+                                <point x="0.727273" y="0.428571" />
+                                <point x="0.969697" y="0.5" />
+                                <point x="0.5" y="0.857143" />
+                                <point x="0.106061" y="0.833333" />
+                                <point x="0.0151515" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\fishSwim2.png">
+                            <image-point name="enemyHead" x="0.403226" y="-0.0232558" />
+                            <collision-poly>
+                                <point x="0.16129" y="0.232558" />
+                                <point x="0.5" y="0.116279" />
+                                <point x="0.741935" y="0.372093" />
+                                <point x="0.967742" y="0.488372" />
+                                <point x="0.774194" y="0.674419" />
+                                <point x="0.5" y="0.837209" />
+                                <point x="0.129032" y="0.813953" />
+                                <point x="0.016129" y="0.488372" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="hit" pingpong="0" repeatcount="1" repeatto="0" sid="753646757463861" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\fishSwim2.png">
+                            <collision-poly>
+                                <point x="0.16129" y="0.232558" />
+                                <point x="0.5" y="0.116279" />
+                                <point x="0.741935" y="0.372093" />
+                                <point x="0.967742" y="0.488372" />
+                                <point x="0.774194" y="0.674419" />
+                                <point x="0.5" y="0.837209" />
+                                <point x="0.129032" y="0.813953" />
+                                <point x="0.016129" y="0.488372" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="299192386892951" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\fishDead.png">
+                            <collision-poly>
+                                <point x="0.106061" y="0.166667" />
+                                <point x="0.5" y="0.142857" />
+                                <point x="0.969697" y="0.5" />
+                                <point x="0.727273" y="0.571429" />
+                                <point x="0.5" y="0.880952" />
+                                <point x="0.151515" y="0.761905" />
+                                <point x="0.0151515" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_snail" sid="460077213664984">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="897421638396276" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.516129" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\snailWalk1.png">
+                            <collision-poly>
+                                <point x="0.166667" y="0.290323" />
+                                <point x="0.5" y="0.0322581" />
+                                <point x="0.888889" y="0.193548" />
+                                <point x="0.962963" y="0.483871" />
+                                <point x="0.981481" y="0.967742" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0740741" y="0.870968" />
+                                <point x="0.0740741" y="0.483871" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.508772" hotspotY="0.516129" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\snailWalk2.png">
+                            <collision-poly>
+                                <point x="0.157895" y="0.290323" />
+                                <point x="0.491228" y="0.0645161" />
+                                <point x="0.894737" y="0.193548" />
+                                <point x="0.964912" y="0.483871" />
+                                <point x="0.982456" y="0.967742" />
+                                <point x="0.491228" y="1" />
+                                <point x="0.0526316" y="0.903226" />
+                                <point x="0.0701754" y="0.483871" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="hit" pingpong="0" repeatcount="1" repeatto="0" sid="939630747072030" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\snailShell.png">
+                            <collision-poly>
+                                <point x="0.159091" y="0.233333" />
+                                <point x="0.5" y="0" />
+                                <point x="0.863636" y="0.2" />
+                                <point x="0.977273" y="0.5" />
+                                <point x="0.931818" y="0.9" />
+                                <point x="0.5" y="0.966667" />
+                                <point x="0.0909091" y="0.866667" />
+                                <point x="0.0227273" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="748198481377887" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\snailShell_upsidedown.png">
+                            <collision-poly>
+                                <point x="0.0681818" y="0.1" />
+                                <point x="0.5" y="0" />
+                                <point x="0.931818" y="0.1" />
+                                <point x="0.977273" y="0.5" />
+                                <point x="0.840909" y="0.766667" />
+                                <point x="0.5" y="0.966667" />
+                                <point x="0.159091" y="0.766667" />
+                                <point x="0.0454545" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_poker" sid="805392804474715">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="399901370880919" speed="5">
+                        <frame duration="1" hotspotX="0.479167" hotspotY="1" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\pokerMad.png">
+                            <collision-poly>
+                                <point x="0.145833" y="0.0479452" />
+                                <point x="0.5" y="0" />
+                                <point x="0.854167" y="0.0479452" />
+                                <point x="1" y="0.5" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.46" hotspotY="0.976744" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\pokerMad.png">
+                            <collision-poly>
+                                <point x="0.1736" y="0.07794" />
+                                <point x="0.5" y="0.0165254" />
+                                <point x="0.8264" y="0.07794" />
+                                <point x="0.9608" y="0.656992" />
+                                <point x="0.9608" y="1" />
+                                <point x="0.0392" y="1" />
+                                <point x="0.0392" y="0.656992" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_slime" sid="671320664162161">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="902252608182696" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\slimeWalk1.png">
+                            <image-point name="headEnemy" x="0.44" y="-0.0357143" />
+                            <collision-poly>
+                                <point x="0.12" y="0.214286" />
+                                <point x="0.5" y="0.0357143" />
+                                <point x="0.8" y="0.357143" />
+                                <point x="0.82" y="0.5" />
+                                <point x="0.98" y="0.964286" />
+                                <point x="0.5" y="1" />
+                                <point x="0.02" y="0.964286" />
+                                <point x="0.02" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.509804" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\slimeWalk2.png">
+                            <image-point name="headEnemy" x="0.431373" y="-0.0384615" />
+                            <collision-poly>
+                                <point x="0.117647" y="0.230769" />
+                                <point x="0.490196" y="0.0384615" />
+                                <point x="0.784314" y="0.423077" />
+                                <point x="0.803922" y="0.5" />
+                                <point x="0.980392" y="0.961538" />
+                                <point x="0.490196" y="1" />
+                                <point x="0.0196078" y="0.961538" />
+                                <point x="0.0196078" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="306994593343232" speed="5">
+                        <frame duration="1" hotspotX="0.508475" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\inimigosfase01\slimeDead.png">
+                            <collision-poly>
+                                <point x="0.118644" y="0.583333" />
+                                <point x="0.491525" y="0" />
+                                <point x="0.864407" y="0.666667" />
+                                <point x="0.847458" y="0.5" />
+                                <point x="0.491525" y="1" />
+                                <point x="0.118644" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_barbarian" sid="766528070253578">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="465513167869074" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.502092" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\maisinimigosfase03\inimigosfase03-29.png">
+                            <collision-poly>
+                                <point x="0.227723" y="0.234309" />
+                                <point x="0.5" y="0.0543933" />
+                                <point x="0.89604" y="0.0878661" />
+                                <point x="0.90099" y="0.497908" />
+                                <point x="0.816832" y="0.845188" />
+                                <point x="0.5" y="0.995816" />
+                                <point x="0.356436" y="0.711298" />
+                                <point x="0" y="0.430962" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.502092" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\maisinimigosfase03\inimigosfase03-30.png">
+                            <collision-poly>
+                                <point x="0.227723" y="0.234309" />
+                                <point x="0.5" y="0.0543933" />
+                                <point x="0.89604" y="0.0878661" />
+                                <point x="0.90099" y="0.497908" />
+                                <point x="0.816832" y="0.845188" />
+                                <point x="0.5" y="0.995816" />
+                                <point x="0.356436" y="0.711298" />
+                                <point x="0" y="0.430962" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_paleta" sid="975975488659801">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="578680511296804" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\inimigos-19.png">
+                            <collision-poly>
+                                <point x="0.158416" y="0.0883978" />
+                                <point x="0.5" y="0.00552486" />
+                                <point x="0.816832" y="0.10221" />
+                                <point x="0.910891" y="0.5" />
+                                <point x="0.663366" y="0.812155" />
+                                <point x="0.5" y="0.779006" />
+                                <point x="0.0742574" y="0.958564" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.501408" hotspotY="0.501355" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\inimigos-20.png">
+                            <collision-poly>
+                                <point x="0.478873" y="0.460705" />
+                                <point x="0.498592" y="0.460705" />
+                                <point x="0.870423" y="0.124661" />
+                                <point x="0.870423" y="0.498645" />
+                                <point x="0.952113" y="0.95393" />
+                                <point x="0.498592" y="0.493225" />
+                                <point x="0.526761" y="0.493225" />
+                                <point x="0.0478873" y="0.498645" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="stop" pingpong="0" repeatcount="1" repeatto="0" sid="356847564583954" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\inimigos-18.png">
+                            <collision-poly>
+                                <point x="0.158416" y="0.0883978" />
+                                <point x="0.5" y="0.00552486" />
+                                <point x="0.816832" y="0.10221" />
+                                <point x="0.910891" y="0.5" />
+                                <point x="0.663366" y="0.812155" />
+                                <point x="0.5" y="0.779006" />
+                                <point x="0.0742574" y="0.958564" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="343176284173879" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\inimigos-17.png">
+                            <collision-poly>
+                                <point x="0.158416" y="0.0883978" />
+                                <point x="0.5" y="0.00552486" />
+                                <point x="0.816832" y="0.10221" />
+                                <point x="0.910891" y="0.5" />
+                                <point x="0.663366" y="0.812155" />
+                                <point x="0.5" y="0.936464" />
+                                <point x="0.0693069" y="0.961326" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_spectre" sid="352611689270460">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="812192191290171" speed="5">
+                        <frame duration="1" hotspotX="0.503876" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\maisinimigosfase03\inimigosfase03-27.png">
+                            <collision-poly>
+                                <point x="0.0697674" y="0.0378151" />
+                                <point x="0.496124" y="0.138655" />
+                                <point x="0.860465" y="0.0756303" />
+                                <point x="0.984496" y="0.5" />
+                                <point x="0.837209" y="0.911765" />
+                                <point x="0.496124" y="0.995798" />
+                                <point x="0.147287" y="0.920168" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.503876" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\maisinimigosfase03\inimigosfase03-28.png">
+                            <collision-poly>
+                                <point x="0.139535" y="0.0756303" />
+                                <point x="0.496124" y="0.138655" />
+                                <point x="0.930233" y="0.0378151" />
+                                <point x="1" y="0.5" />
+                                <point x="0.852713" y="0.920168" />
+                                <point x="0.496124" y="0.995798" />
+                                <point x="0.155039" y="0.915966" />
+                                <point x="0.0155039" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_icecream" sid="675278339966577">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="970539287713198" speed="5">
+                        <frame duration="1" hotspotX="0.50211" hotspotY="0.50152" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\inimigos-04.png">
+                            <collision-poly>
+                                <point x="0.07173" y="0.0516717" />
+                                <point x="0.49789" y="0.130699" />
+                                <point x="0.662447" y="0.243161" />
+                                <point x="0.793249" y="0.49848" />
+                                <point x="0.978903" y="0.984802" />
+                                <point x="0.417722" y="0.699088" />
+                                <point x="0.122363" y="0.49848" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="978909921976002" speed="5">
+                        <frame duration="1" hotspotX="0.50211" hotspotY="0.50152" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\inimigos-05.png">
+                            <collision-poly>
+                                <point x="0.07173" y="0.0516717" />
+                                <point x="0.49789" y="0.130699" />
+                                <point x="0.662447" y="0.243161" />
+                                <point x="0.793249" y="0.49848" />
+                                <point x="0.978903" y="0.984802" />
+                                <point x="0.417722" y="0.699088" />
+                                <point x="0.122363" y="0.49848" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="enemy_gelatine" sid="488150673960390">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="304030357674961" speed="5">
+                        <frame duration="1" hotspotX="0.501916" hotspotY="0.502564" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\inimigos-07.png">
+                            <collision-poly>
+                                <point x="0.153257" y="0.205128" />
+                                <point x="0.498084" y="0.00512821" />
+                                <point x="0.83908" y="0.215385" />
+                                <point x="0.950192" y="0.497436" />
+                                <point x="0.869732" y="0.825641" />
+                                <point x="0.498084" y="1" />
+                                <point x="0.10728" y="0.85641" />
+                                <point x="0.0344828" y="0.497436" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="914695069840532" speed="5">
+                        <frame duration="1" hotspotX="0.501916" hotspotY="0.502564" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\inimigos-08.png">
+                            <collision-poly>
+                                <point x="0.153257" y="0.205128" />
+                                <point x="0.498084" y="0.00512821" />
+                                <point x="0.83908" y="0.215385" />
+                                <point x="0.950192" y="0.497436" />
+                                <point x="0.869732" y="0.825641" />
+                                <point x="0.498084" y="1" />
+                                <point x="0.10728" y="0.85641" />
+                                <point x="0.0344828" y="0.497436" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Player">
+            <object-type name="player" sid="885979642364362">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Platform" sid="935764861825076">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                    <behavior-type name="ScrollTo" sid="569690225556243">
+                        <behavior id="scrollto" />
+                    </behavior-type>
+                    <behavior-type name="Flash" sid="312519533765835">
+                        <behavior id="Flash" />
+                    </behavior-type>
+                </behaviors>
+                <container>
+                    <type>EnemyKill</type>
+                    <type>player</type>
+                    <type>PlayerKill</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="4" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="319410732926766" speed="5">
+                        <frame duration="1" hotspotX="0.548673" hotspotY="1" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-49.png">
+                            <collision-poly>
+                                <point x="0.318584" y="0.116279" />
+                                <point x="0.787611" y="0.110465" />
+                                <point x="0.787611" y="0.982558" />
+                                <point x="0.318584" y="0.982558" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.552632" hotspotY="1" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-50.png">
+                            <collision-poly>
+                                <point x="0.318584" y="0.116279" />
+                                <point x="0.787611" y="0.110465" />
+                                <point x="0.787611" y="0.982558" />
+                                <point x="0.318584" y="0.982558" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.547826" hotspotY="1" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-51.png">
+                            <collision-poly>
+                                <point x="0.318584" y="0.116279" />
+                                <point x="0.787611" y="0.110465" />
+                                <point x="0.787611" y="0.982558" />
+                                <point x="0.318584" y="0.982558" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.547826" hotspotY="1" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-52.png">
+                            <collision-poly>
+                                <point x="0.318584" y="0.116279" />
+                                <point x="0.787611" y="0.110465" />
+                                <point x="0.787611" y="0.982558" />
+                                <point x="0.318584" y="0.982558" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="6" loop="1" name="walk" pingpong="0" repeatcount="1" repeatto="0" sid="197367396703894" speed="10">
+                        <frame duration="1" hotspotX="0.491379" hotspotY="0.981818" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-28.png">
+                            <collision-poly>
+                                <point x="0.163793" y="0.133333" />
+                                <point x="0.913793" y="0.139394" />
+                                <point x="0.603448" y="1" />
+                                <point x="0.327586" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.487603" hotspotY="0.982659" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-29.png">
+                            <collision-poly>
+                                <point x="0.380165" y="0.0635838" />
+                                <point x="1" y="0" />
+                                <point x="0.495868" y="1" />
+                                <point x="0.206612" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.488" hotspotY="0.982353" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-30.png">
+                            <collision-poly>
+                                <point x="0.288" y="0.0941177" />
+                                <point x="0.888" y="0.0941176" />
+                                <point x="0.768" y="1" />
+                                <point x="0.304" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.491379" hotspotY="0.981818" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-31.png">
+                            <collision-poly>
+                                <point x="0.181034" y="0.0969697" />
+                                <point x="0.905172" y="0.0969697" />
+                                <point x="0.62069" y="1" />
+                                <point x="0.362069" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.487603" hotspotY="0.982659" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-32.png">
+                            <collision-poly>
+                                <point x="0.256198" y="0.0751445" />
+                                <point x="0.933884" y="0.0693642" />
+                                <point x="0.553719" y="1" />
+                                <point x="0.280992" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.492063" hotspotY="0.982353" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-33.png">
+                            <collision-poly>
+                                <point x="0.285714" y="0.0588235" />
+                                <point x="0.928571" y="0.0705882" />
+                                <point x="0.730158" y="1" />
+                                <point x="0.444444" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="3" loop="0" name="jump" pingpong="0" repeatcount="1" repeatto="0" sid="330009422279053" speed="5">
+                        <frame duration="1" hotspotX="0.446429" hotspotY="0.97546" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-34.png">
+                            <collision-poly>
+                                <point x="0.223214" y="0.0736196" />
+                                <point x="0.866071" y="0.0797546" />
+                                <point x="0.616071" y="1" />
+                                <point x="0.241071" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.449612" hotspotY="0.975309" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-35.png">
+                            <collision-poly>
+                                <point x="0.217054" y="0.0679012" />
+                                <point x="0.937984" y="0.0679012" />
+                                <point x="0.620155" y="1" />
+                                <point x="0.395349" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.45" hotspotY="0.97546" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-36.png">
+                            <collision-poly>
+                                <point x="0.378571" y="0.0797546" />
+                                <point x="0.942857" y="0.0858896" />
+                                <point x="0.585714" y="1" />
+                                <point x="0.392857" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="3" loop="0" name="fall" pingpong="0" repeatcount="1" repeatto="0" sid="561516991224296" speed="5">
+                        <frame duration="1" hotspotX="0.517241" hotspotY="1.0122" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-37.png">
+                            <collision-poly>
+                                <point x="0.406897" y="0.103659" />
+                                <point x="0.931034" y="0.103659" />
+                                <point x="0.593103" y="1" />
+                                <point x="0.37931" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.507353" hotspotY="0.981132" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-38.png" />
+                        <frame duration="1" hotspotX="0.507463" hotspotY="0.980519" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\heroinapulandoecorrendo-39.png" />
+                    </animation>
+                    <animation framecount="3" loop="0" name="hit" pingpong="0" repeatcount="1" repeatto="0" sid="917089501343319" speed="5">
+                        <frame duration="1" hotspotX="0.465649" hotspotY="0.993711" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-40.png">
+                            <collision-poly>
+                                <point x="0.19084" y="0.163522" />
+                                <point x="0.900763" y="0.163522" />
+                                <point x="0.580153" y="1" />
+                                <point x="0.305344" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.465649" hotspotY="0.993631" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-41.png" />
+                        <frame duration="1" hotspotX="0.463235" hotspotY="0.99359" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-42.png" />
+                    </animation>
+                    <animation framecount="5" loop="1" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="368637631264625" speed="5">
+                        <frame duration="1" hotspotX="0.482517" hotspotY="0.958333" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-44.png">
+                            <collision-poly>
+                                <point x="0.230769" y="0.10119" />
+                                <point x="0.951049" y="0.10119" />
+                                <point x="0.664336" y="1" />
+                                <point x="0.454545" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.480315" hotspotY="0.956522" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-45.png">
+                            <collision-poly>
+                                <point x="0.385827" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.669291" y="1" />
+                                <point x="0.409449" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.479167" hotspotY="0.961538" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-46.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.493056" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.479452" hotspotY="0.955882" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-47.png" />
+                        <frame duration="1" hotspotX="0.48" hotspotY="0.955556" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\personagemprincipal\principal_sprites-48.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EnemyKill" sid="376092631837163">
+                <plugin id="Sprite" />
+                <container>
+                    <type>EnemyKill</type>
+                    <type>player</type>
+                    <type>PlayerKill</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="876645986497768" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="PlayerKill" sid="257722426373859">
+                <plugin id="Sprite" />
+                <container>
+                    <type>EnemyKill</type>
+                    <type>player</type>
+                    <type>PlayerKill</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="540171732031830" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="PowerUp" sid="692292548695959">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Flash" sid="311464854888980">
+                        <behavior id="Flash" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977798817585675" speed="5">
+                        <frame duration="1" hotspotX="0.449275" hotspotY="0.470588" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Effects">
+            <object-type name="e_wall" sid="259986049434153">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="583648730621110" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="efeito_vento" sid="761305193829814">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="986214860464322" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="finish" sid="134444166968408">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349099627656143" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="barreira" sid="178474297637069">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="560238689755786">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="334191634525163" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="b_wall" sid="469387527524438">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="116053704331650">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="599361015702786" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Controls">
+            <object-type name="Keyboard" sid="273492568040896">
+                <plugin id="Keyboard" />
+            </object-type>
+            <object-type name="Mouse" sid="918997892461408">
+                <plugin id="Mouse" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Display">
+            <object-type name="statuses" sid="223033446615604">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="HealthBar" sid="444078806522931">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="919896343531670" speed="0">
+                        <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="C:\Users\Aecio\Documents\Projeto Games\assets\life7.png" />
+                        <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="C:\Users\Aecio\Documents\Projeto Games\assets\life6.png" />
+                        <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="C:\Users\Aecio\Documents\Projeto Games\assets\life5.png" />
+                        <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="C:\Users\Aecio\Documents\Projeto Games\assets\life4.png" />
+                        <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="C:\Users\Aecio\Documents\Projeto Games\assets\life3.png" />
+                        <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="C:\Users\Aecio\Documents\Projeto Games\assets\life2.png" />
+                        <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="C:\Users\Aecio\Documents\Projeto Games\assets\life1.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Checkpoint" sid="218232757546723">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="902924777557065" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\Textures\checkpoint.png">
+                            <collision-poly>
+                                <point x="0.5" y="0" />
+                                <point x="1" y="0.5" />
+                                <point x="0.5" y="1" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Audio" sid="570630985375619">
+                <plugin id="Audio" />
+            </object-type>
+            <object-type name="SFCompleted" sid="517983816778111">
+                <plugin id="Spritefont2" />
+                <texture />
+            </object-type>
+        </object-folder>
+        <object-folder name="Fase 2">
+            <object-type name="Tilemap_fase2" sid="766331662273804">
+                <plugin id="Tilemap" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="764814821941771">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\candy_spritesheet-01.png" />
+                <tiles>
+                    <tile id="10">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="16">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.435714" />
+                            <point x="0.857143" y="0.721428" />
+                            <point x="0.539286" y="0.917857" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="29">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.582143" y="0.960714" />
+                            <point x="0.217857" y="0.785714" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="35">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.464286" />
+                            <point x="0.864286" y="0.710714" />
+                            <point x="0.560714" y="0.910714" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="42">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.35" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="48">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.585714" y="0.953571" />
+                            <point x="0.235714" y="0.807143" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="55">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="0.339286" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="61">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.353571" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="68">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="74">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="0.339286" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="81">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="87">
+                        <collision-poly>
+                            <point x="0.00357143" y="1" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="95">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.560714" y="0.960714" />
+                            <point x="0.285714" y="0.842857" />
+                            <point x="0" y="0.453571" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="96">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="97">
+                        <collision-poly>
+                            <point x="0.00357143" y="1" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="104">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.660714" y="1" />
+                            <point x="0.367857" y="0.621428" />
+                            <point x="0" y="0.360714" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="106">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.35" />
+                            <point x="0.725" y="0.553571" />
+                            <point x="0.346429" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="108">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.839286" y="0.757143" />
+                            <point x="0.553572" y="0.928571" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="122">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                    <tile id="123">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </tile>
+                </tiles>
+            </object-type>
+            <object-type name="TileBackground_fase2" sid="188316854999384">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\fundo_fase02-01.png" />
+            </object-type>
+            <object-type name="Tilemap_fase2_bg" sid="806182915341366">
+                <plugin id="Tilemap" />
+                <texture original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\fase02candyland\candy_spritesheet-01.png" />
+                <tiles />
+            </object-type>
+            <object-type name="SpriteFallBlock1_fase2" sid="755067650007216">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="562615115261059" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Repositorio\super-warrior-girlfriend\Textures\Tilemap_fase2.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SpriteFallBlock2_fase2" sid="733988320073172">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="242868910889455" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Repositorio\super-warrior-girlfriend\Textures\Tilemap_fase2_bg.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="EnemyBoss">
+            <object-type name="boss_3" sid="545803004063211">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="directionD" sid="470999489954541" type="string" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="4" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="356604135678219" speed="3">
+                        <frame duration="1" hotspotX="0.513682" hotspotY="0.492401" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\spritesbossfase03\sprites_boss_fase03-18.png">
+                            <collision-poly>
+                                <point x="0.525439" y="1.86265e-009" />
+                                <point x="0.616916" y="0.41258" />
+                                <point x="1" y="0.717364" />
+                                <point x="0.549446" y="0.713588" />
+                                <point x="0.0965158" y="0.963213" />
+                                <point x="0.00381076" y="0.293462" />
+                                <point x="0.515013" y="0.0314425" />
+                                <point x="0.549446" y="0" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.51625" hotspotY="0.571063" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\spritesbossfase03\sprites_boss_fase03-19.png">
+                            <collision-poly>
+                                <point x="0.5375" y="0" />
+                                <point x="0.6675" y="0.00768245" />
+                                <point x="0.6475" y="0.524968" />
+                                <point x="1" y="0.745199" />
+                                <point x="0.48625" y="0.870679" />
+                                <point x="0.085" y="0.924456" />
+                                <point x="0.1325" y="0.507042" />
+                                <point x="0.51625" y="0.53265" />
+                                <point x="0.48625" y="0.40717" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.510507" hotspotY="0.649582" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\spritesbossfase03\sprites_boss_fase03-20.png">
+                            <collision-poly>
+                                <point x="0.289246" y="0.607741" />
+                                <point x="0.584673" y="0.280335" />
+                                <point x="0.788628" y="0.811715" />
+                                <point x="0.504326" y="0.839958" />
+                                <point x="0.0766378" y="0.932008" />
+                                <point x="0.491965" y="0.497908" />
+                                <point x="0.677379" y="0.00627615" />
+                                <point x="0.487021" y="0.0135983" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.493168" hotspotY="0.7312" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\spritesbossfase03\sprites_boss_fase03-21.png">
+                            <collision-poly>
+                                <point x="0.66087" y="0.2072" />
+                                <point x="0.621118" y="0.4976" />
+                                <point x="0.906832" y="0.976" />
+                                <point x="0.511801" y="0.8776" />
+                                <point x="0.113043" y="0.9776" />
+                                <point x="0.604969" y="0.512" />
+                                <point x="0.242236" y="0.1304" />
+                                <point x="0.511801" y="0.06" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="741500521455955" speed="5">
+                        <frame duration="1" hotspotX="0.487211" hotspotY="0.582878" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\spritesbossfase03\sprites_boss_fase03-10.png">
+                            <collision-poly>
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BossWeakPoint" sid="559678421563770">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="668704894571175" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="boss_1" sid="191908760428508">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="directionB" sid="621901648222697" type="string" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="334335461636523" speed="5">
+                        <frame duration="1" hotspotX="0.462366" hotspotY="1.00487" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\spriteschefofase01\sprites_inimigo fase 01-02.png">
+                            <collision-poly>
+                                <point x="0.715822" y="0.655844" />
+                                <point x="0.987711" y="0.996754" />
+                                <point x="0.16129" y="0.86039" />
+                                <point x="0.0334101" y="0.662338" />
+                                <point x="0.0560678" y="0.652597" />
+                                <point x="0.574501" y="0.691559" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.491103" hotspotY="1.00371" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\spriteschefofase01\sprites_inimigo fase 01-04.png">
+                            <collision-poly>
+                                <point x="0.866548" y="0.58256" />
+                                <point x="0.955516" y="0.656772" />
+                                <point x="0.955516" y="1" />
+                                <point x="0.234875" y="1" />
+                                <point x="0.0462633" y="0.644712" />
+                                <point x="0.565837" y="0.656772" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="2" loop="1" name="stop" pingpong="0" repeatcount="1" repeatto="0" sid="819615425268741" speed="5">
+                        <frame duration="1" hotspotX="0.498652" hotspotY="1.00119" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\spriteschefofase01\sprites_inimigo fase 01-03.png">
+                            <collision-poly>
+                                <point x="0.838275" y="0.622619" />
+                                <point x="0.814016" y="0.99881" />
+                                <point x="0.169811" y="0.99881" />
+                                <point x="0.172507" y="0.625" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.482474" hotspotY="1.00233" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\spriteschefofase01\sprites_inimigo fase 01-05.png">
+                            <collision-poly>
+                                <point x="0.688659" y="0.607684" />
+                                <point x="0.641237" y="0.896391" />
+                                <point x="0.152577" y="1" />
+                                <point x="0.127835" y="0.593714" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="231533703581667" speed="5">
+                        <frame duration="1" hotspotX="0.500642" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\spriteschefofase01\sprites_inimigo fase 01-07.png">
+                            <collision-poly>
+                                <point x="0.22208" y="1" />
+                                <point x="0.205392" y="1" />
+                                <point x="0.223363" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="SpriteFont2" sid="609682842680756">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="spr_historia" sid="554164097839806">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="547351454383051" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\historia\história-06.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="510689287980820">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="634169125179567" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Repositorio\super-warrior-girlfriend\mapas_tiled\historia\história-06.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="allEnemies" plugin-id="Sprite" sid="886856438398858">
+            <members>
+                <member>enemy_barbarian</member>
+                <member>enemy_bat</member>
+                <member>enemy_fish</member>
+                <member>enemy_fly</member>
+                <member>enemy_fly2</member>
+                <member>enemy_gelatine</member>
+                <member>enemy_ghost</member>
+                <member>enemy_icecream</member>
+                <member>enemy_paleta</member>
+                <member>enemy_slime</member>
+                <member>enemy_snail</member>
+                <member>enemy_spider</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Bullet" sid="922823541052387">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="899252893316140">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="allEnemiesFast" plugin-id="Sprite" sid="569596683320123">
+            <members>
+                <member>enemy_bat</member>
+                <member>enemy_fly</member>
+                <member>enemy_fly2</member>
+                <member>enemy_ghost</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="directionF" sid="341761929777612" type="string" />
+            </instance-variables>
+        </family>
+        <family name="allFallingBlocks" plugin-id="Sprite" sid="241607204613471">
+            <members>
+                <member>SpriteFallBlock1_fase1</member>
+                <member>SpriteFallBlock1_fase2</member>
+                <member>SpriteFallBlock2_fase2</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Solid" sid="607695425420659">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="975942377916787">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="allCheckpoint" plugin-id="Sprite" sid="481975139669883">
+            <members>
+                <member>Checkpoint</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="Checked" sid="439933899373957" type="boolean" />
+                <instance-variable name="Number" sid="841080893886942" type="number" />
+            </instance-variables>
+        </family>
+        <family name="allEnemiesSlow" plugin-id="Sprite" sid="125823641654306">
+            <members>
+                <member>enemy_barbarian</member>
+                <member>enemy_gelatine</member>
+                <member>enemy_snail</member>
+                <member>enemy_spider</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="directionS" sid="523024427977635" type="string" />
+            </instance-variables>
+        </family>
+        <family name="allEnemiesMedium" plugin-id="Sprite" sid="520633657524024">
+            <members>
+                <member>enemy_fish</member>
+                <member>enemy_icecream</member>
+                <member>enemy_paleta</member>
+                <member>enemy_slime</member>
+                <member>enemy_spectre</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="directionM" sid="349024592335292" type="string" />
+            </instance-variables>
+        </family>
+        <family name="allEnemiesBoss" plugin-id="Sprite" sid="293052025347222">
+            <members>
+                <member>boss_1</member>
+                <member>boss_3</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="HitPointsB" sid="120002930491089" type="number" />
+                <instance-variable name="Invencible" sid="270701641602866" type="boolean" />
+                <instance-variable name="Dead" sid="854531075102334" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Flash" sid="561912109803725">
+                    <behavior id="Flash" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="974806330439136">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="allEnemiesTrap" plugin-id="Sprite" sid="174491038808479">
+            <members>
+                <member>enemy_poker</member>
+                <member>enemy_spectre</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Solid" sid="165927546302944">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>start_screen.xml</layout>
+        <layout>fase_1.xml</layout>
+        <layout>fase_2.xml</layout>
+        <layout>fase_3.xml</layout>
+        <layout>end_screen.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="5" />
+        <global-instance type="Audio" uid="174">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="284" />
+    </global-instances>
+    <sounds-folder>
+        <file name="hurt_player.m4a" />
+        <file name="hurt_player.ogg" />
+        <file name="jump.m4a" />
+        <file name="jump.ogg" />
+        <file name="jump_head.m4a" />
+        <file name="jump_head.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="California_Gurls_8_Bit_Remix_Cover_Version_[Tribut.m4a" />
+        <file name="California_Gurls_8_Bit_Remix_Cover_Version_[Tribut.ogg" />
+        <file name="John_Cena_-_My_Time_Is_Now_8-Bit_NES_Remix_192kbit.m4a" />
+        <file name="John_Cena_-_My_Time_Is_Now_8-Bit_NES_Remix_192kbit.ogg" />
+        <file name="Shake_It_Off_8-Bit_NES_Remix_192kbit_AAC_.m4a" />
+        <file name="Shake_It_Off_8-Bit_NES_Remix_192kbit_AAC_.ogg" />
+        <file name="Steven_Universe_-_Here_Comes_A_Thought_-_8_Bits.m4a" />
+        <file name="Steven_Universe_-_Here_Comes_A_Thought_-_8_Bits.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

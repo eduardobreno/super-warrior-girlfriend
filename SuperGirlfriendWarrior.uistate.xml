@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="0">start_screen</layout>
+        <layout order="1">fase_1</layout>
+        <layout order="2">fase_2</layout>
+        <layout order="3">fase_3</layout>
+        <layout order="5">end_screen</layout>
+        <event-sheet order="4">Event sheet 1</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="0">
+        <family expanded="0" name="allEnemies" />
+        <family expanded="0" name="allEnemiesFast" />
+        <family expanded="1" name="allFallingBlocks" />
+        <family expanded="0" name="allCheckpoint" />
+        <family expanded="0" name="allEnemiesSlow" />
+        <family expanded="0" name="allEnemiesMedium" />
+        <family expanded="0" name="allEnemiesBoss" />
+        <family expanded="0" name="allEnemiesTrap" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/Fase 1/" />
+        <folder expanded="1" path="object-folder/StartScreen/" />
+        <folder expanded="1" path="object-folder/Fase 3/" />
+        <folder expanded="0" path="object-folder/Enemies/" />
+        <folder expanded="1" path="object-folder/Player/" />
+        <folder expanded="0" path="object-folder/Effects/" />
+        <folder expanded="0" path="object-folder/Controls/" />
+        <folder expanded="0" path="object-folder/Display/" />
+        <folder expanded="0" path="object-folder/Fase 2/" />
+        <folder expanded="0" path="object-folder/EnemyBoss/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="0" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/SpriteFallBlock1_fase1/" />
+        <folder expanded="1" path="animation-folder/spritebt1/" />
+        <folder expanded="1" path="animation-folder/spritebt2/" />
+        <folder expanded="1" path="animation-folder/spritebt3/" />
+        <folder expanded="1" path="animation-folder/SpriteKeyHole/" />
+        <folder expanded="1" path="animation-folder/enemy_bat/" />
+        <folder expanded="1" path="animation-folder/enemy_fly2/" />
+        <folder expanded="1" path="animation-folder/enemy_ghost/" />
+        <folder expanded="1" path="animation-folder/enemy_spider/" />
+        <folder expanded="1" path="animation-folder/enemy_fly/" />
+        <folder expanded="1" path="animation-folder/enemy_fish/" />
+        <folder expanded="1" path="animation-folder/enemy_snail/" />
+        <folder expanded="1" path="animation-folder/enemy_poker/" />
+        <folder expanded="1" path="animation-folder/enemy_slime/" />
+        <folder expanded="1" path="animation-folder/enemy_barbarian/" />
+        <folder expanded="1" path="animation-folder/enemy_paleta/" />
+        <folder expanded="1" path="animation-folder/enemy_spectre/" />
+        <folder expanded="1" path="animation-folder/enemy_icecream/" />
+        <folder expanded="1" path="animation-folder/enemy_gelatine/" />
+        <folder expanded="1" path="animation-folder/player/" />
+        <folder expanded="1" path="animation-folder/EnemyKill/" />
+        <folder expanded="1" path="animation-folder/PlayerKill/" />
+        <folder expanded="1" path="animation-folder/PowerUp/" />
+        <folder expanded="1" path="animation-folder/e_wall/" />
+        <folder expanded="1" path="animation-folder/efeito_vento/" />
+        <folder expanded="1" path="animation-folder/finish/" />
+        <folder expanded="1" path="animation-folder/barreira/" />
+        <folder expanded="1" path="animation-folder/b_wall/" />
+        <folder expanded="1" path="animation-folder/HealthBar/" />
+        <folder expanded="1" path="animation-folder/Checkpoint/" />
+        <folder expanded="1" path="animation-folder/SpriteFallBlock1_fase2/" />
+        <folder expanded="1" path="animation-folder/SpriteFallBlock2_fase2/" />
+        <folder expanded="1" path="animation-folder/boss_3/" />
+        <folder expanded="1" path="animation-folder/BossWeakPoint/" />
+        <folder expanded="1" path="animation-folder/boss_1/" />
+        <folder expanded="1" path="animation-folder/spr_historia/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+    </folders-expanded>
+</c2uistate>
